@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘">
+      <UniqueIdentifier>{b7f33572-f631-4dcb-bccb-d680d9c892e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{bf568a9d-60c6-44f4-adfc-dafd44475f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\그리디%28Greedy%29">
+      <UniqueIdentifier>{163c3052-4bdc-43ea-8220-3db0937f8f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\동적계획법%28Dynamic Programming%29">
+      <UniqueIdentifier>{a607c713-15fd-4495-9543-64c815c311ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\분할정복">
+      <UniqueIdentifier>{14b7862d-60dd-4fb5-93b7-f673c75493d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\완전탐색">
+      <UniqueIdentifier>{3653290b-9075-4c3e-9324-22e94925a5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\정렬%28Sorting%29">
+      <UniqueIdentifier>{8e706a9b-79cd-4252-86d1-7d507cf62768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\최단경로">
+      <UniqueIdentifier>{8c67933b-ce74-4195-8a3a-29d56af826c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\최소신장트리%28MST%29">
+      <UniqueIdentifier>{bd7a8cd5-4417-4975-9d72-a6675cc641b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\알고리즘\탐색%28Search%29">
+      <UniqueIdentifier>{d2a853dd-0213-4555-a11f-8b6d46473595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Graph">
+      <UniqueIdentifier>{788a2306-48df-4860-a548-9bedc15dc44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\HashTable">
+      <UniqueIdentifier>{60d2541d-3279-4127-8218-943a870b9354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Heap">
+      <UniqueIdentifier>{4fbe616f-9cbf-4fb6-83f2-5bc4c9363640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Queue">
+      <UniqueIdentifier>{47823cfd-bc61-4263-bd87-9f7b80becd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Single Linked List">
+      <UniqueIdentifier>{c10c2a5f-84a0-45b5-a868-3dd1e2977971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Stack">
+      <UniqueIdentifier>{82acc008-fdd4-42d7-b052-f0f677f3c98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조\Tree">
+      <UniqueIdentifier>{48553194-83e3-4296-9dd8-e41168bfc941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="거스름돈 문제.cpp">
+      <Filter>소스 파일\알고리즘\그리디%28Greedy%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>소스 파일\알고리즘\동적계획법%28Dynamic Programming%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide and Conquer분할정복.cpp">
+      <Filter>소스 파일\알고리즘\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking%28백트래킹%29.cpp">
+      <Filter>소스 파일\알고리즘\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS%28너비우선탐색%29.cpp">
+      <Filter>소스 파일\알고리즘\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="Bruto Force%28브루트 포스%29.cpp">
+      <Filter>소스 파일\알고리즘\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS%28깊이우선탐색%29.cpp">
+      <Filter>소스 파일\알고리즘\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble Sorting%28버블 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Counting Sorting%28계수 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap Sorting%28힙 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Insertion Sorting%28삽입 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge Sorting%28병합 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Quick Sorting%28퀵 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Radix Sorting%28기수 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection Sorting%28선택 정렬%29.cpp">
+      <Filter>소스 파일\알고리즘\정렬%28Sorting%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Bellman-Ford%28벨만-포드%29.cpp">
+      <Filter>소스 파일\알고리즘\최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra%28다익스트라%29.cpp">
+      <Filter>소스 파일\알고리즘\최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd-Warshall%28플로이드-와셜%29.cpp">
+      <Filter>소스 파일\알고리즘\최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal%28크루스칼%29.cpp">
+      <Filter>소스 파일\알고리즘\최소신장트리%28MST%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim%28프림%29.cpp">
+      <Filter>소스 파일\알고리즘\최소신장트리%28MST%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Search%28이진 탐색%29.cpp">
+      <Filter>소스 파일\알고리즘\탐색%28Search%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash Search%28해시 탐색%29.cpp">
+      <Filter>소스 파일\알고리즘\탐색%28Search%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequential Search%28순차 탐색%29.cpp">
+      <Filter>소스 파일\알고리즘\탐색%28Search%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph%28array%29.cpp">
+      <Filter>소스 파일\자료구조\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph%28Single Linked List%29.cpp">
+      <Filter>소스 파일\자료구조\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph%28인접행렬%29.cpp">
+      <Filter>소스 파일\자료구조\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological Sort%28위상 정렬%29.cpp">
+      <Filter>소스 파일\자료구조\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable%28Chaining, Doubly Linked List%29.cpp">
+      <Filter>소스 파일\자료구조\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable%28Chaining, Single Linked List%29.cpp">
+      <Filter>소스 파일\자료구조\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxHeap%28구조체 반환x%29.cpp">
+      <Filter>소스 파일\자료구조\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxHeap.cpp">
+      <Filter>소스 파일\자료구조\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHeap.cpp">
+      <Filter>소스 파일\자료구조\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue%28use Array%29.cpp">
+      <Filter>소스 파일\자료구조\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue%28use Linked List%29.cpp">
+      <Filter>소스 파일\자료구조\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Cercular Single Linked List Sample.cpp">
+      <Filter>소스 파일\자료구조\Single Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="Double Linked List Sample.cpp">
+      <Filter>소스 파일\자료구조\Single Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="Single Linked List Sample1.cpp">
+      <Filter>소스 파일\자료구조\Single Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열을 입력받는 단일 연결리스트.cpp">
+      <Filter>소스 파일\자료구조\Single Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack%28use Array%29.cpp">
+      <Filter>소스 파일\자료구조\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack%28use Linked List%29.cpp">
+      <Filter>소스 파일\자료구조\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Search Tree%28구조체 반환 함수x%29.cpp">
+      <Filter>소스 파일\자료구조\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Search Tree%28재귀함수 응용%29.cpp">
+      <Filter>소스 파일\자료구조\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색트리 레벨순회%28배열 큐%29.cpp">
+      <Filter>소스 파일\자료구조\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색트리 레벨순회%28연결리스트 큐%29.cpp">
+      <Filter>소스 파일\자료구조\Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
